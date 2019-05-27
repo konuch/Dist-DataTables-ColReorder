@@ -1,8 +1,7 @@
 {
     "css": [],
     "js": [
-        "js/dataTables.colReorder.js",
-        "js/dataTables.colReorder.min.js"
+        "js/dataTables.colReorder.js"
     ],
     "src-repo": "http://github.com/DataTables/ColReorder",
     "last-sync": "2c9cfaefed49c9889db380435933102a77c49eac",
