@@ -888,7 +888,8 @@ $.extend( ColReorder.prototype, {
 		/* When scrolling we need to recalculate the column sizes to allow for the shift */
 		if ( this.s.dt.oScroll.sX !== "" || this.s.dt.oScroll.sY !== "" )
 		{
-			this.s.dt.oInstance.fnAdjustColumnSizing( false );
+			// RKO This breaks the colResize lib
+			// this.s.dt.oInstance.fnAdjustColumnSizing( false );
 		}
 
 		/* Save the state */
@@ -1108,7 +1109,8 @@ $.extend( ColReorder.prototype, {
 			// Not great for performance, but required to keep everything in alignment
 			if ( this.s.dt.oScroll.sX !== "" || this.s.dt.oScroll.sY !== "" )
 			{
-				this.s.dt.oInstance.fnAdjustColumnSizing( false );
+				// RKO This breaks the colResize lib
+				// this.s.dt.oInstance.fnAdjustColumnSizing( false );
 			}
 
 			this._fnRegions();
@@ -1144,7 +1146,8 @@ $.extend( ColReorder.prototype, {
 			/* When scrolling we need to recalculate the column sizes to allow for the shift */
 			if ( this.s.dt.oScroll.sX !== "" || this.s.dt.oScroll.sY !== "" )
 			{
-				this.s.dt.oInstance.fnAdjustColumnSizing( false );
+				// RKO This breaks the colResize lib
+				// this.s.dt.oInstance.fnAdjustColumnSizing( false );
 			}
 
 			/* Save the state */
